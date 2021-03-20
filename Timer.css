@@ -1,0 +1,65 @@
+.bord1,
+.bord2,
+.bord3,
+.restartBut,
+.contBut {
+  border-right: 2px solid #2ec4b6;
+}
+.btn {
+  background-color: #ee964b;
+  color: #000000;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-radius: 0px;
+}
+.defaultSecond {
+  width: 100%;
+}
+#time {
+  padding: 6px 12px;
+  border-width: 0px;
+}
+.actualdisplay {
+  text-align: center;
+  color: #3498db;
+  text-shadow: 3px 3px 3px #000000;
+}
+.remainingTime {
+  font-size: 100px;
+}
+.backIn {
+  font-size: 70px;
+}
+.bg-text {
+  margin: auto;
+}
+body {
+  margin: auto;
+  background-image: url("Timer.jpg");
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* backdrop-filter: blur(2px); */
+  width: 100%;
+  height: 100%;
+}
+.defaultSecond,
+.actualdisplay {
+  font-family: "Orbitron", sans-serif;
+}
+.initialText {
+  color: #3498db;
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #000000;
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid transparent; */
+  text-align: justify;
+  overflow: visible;
+}
+.progress {
+  opacity: 0;
+}
+.progress-bar {
+  width: 0%;
+}
