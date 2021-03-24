@@ -39,6 +39,7 @@ function timer(secondsGiven) {
     if (seconds < 0) {
       clearInterval(countDownTimer);
       but.remove();
+      console.log("Hello");
       back();
       return;
     }
@@ -122,10 +123,10 @@ function cont() {
   timer(contSecs);
 }
 function back() {
-  but.remove();
-  restartBut.remove();
-  contBut.remove();
-  backBut.remove();
+  if (but) but.remove();
+  if (restartBut) restartBut.remove();
+  if (contBut) contBut.remove();
+  if (backBut) backBut.remove();
   clearInterval(countDownTimer);
   initialText.style.display = "block";
   displayTimer.style.display = "none";
